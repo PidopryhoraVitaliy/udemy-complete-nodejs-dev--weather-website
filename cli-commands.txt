@@ -7,3 +7,7 @@ ssh-add ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 test connection
 ssh -T git@github.com
+
+# heroku
+heroku keys:add
+heroku create pvv-weather-app
