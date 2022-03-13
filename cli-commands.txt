@@ -1,4 +1,3 @@
-
 # SSH
 ssh-keygen -t rsa -b 4096 -C "vpidopryhora@gmail.com"
 ls -a -l ~/.ssh
