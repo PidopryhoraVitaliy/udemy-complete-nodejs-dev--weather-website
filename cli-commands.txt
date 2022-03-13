@@ -11,3 +11,5 @@ ssh -T git@github.com
 # heroku
 heroku keys:add
 heroku create pvv-weather-app
+https://pvv-weather-app.herokuapp.com/ | https://git.heroku.com/pvv-weather-app.git
+git push heroku main
