@@ -1,0 +1,10 @@
+
+# SSH
+ssh-keygen -t rsa -b 4096 -C "vpidopryhora@gmail.com"
+ls -a -l ~/.ssh
+/c/Users/pvv/.ssh/id_rsa
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+test connection
+ssh -T git@github.com
